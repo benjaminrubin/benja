@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	font-family: 'Raleway', sans-serif;
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+#home {
+	height: 100vh;
+	position: relative;
+}
+
+#benja-logo-image {
+	position: relative;
+	max-height: 100%;
+}
