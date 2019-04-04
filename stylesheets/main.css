@@ -5,7 +5,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: white;
-	font-size: 1.5em;
+	/* font-size: 1.5em; */
 	font-weight: bold;
 	letter-spacing: 2px;
 }
@@ -14,9 +14,29 @@ body {
 #home {
 	height: 100vh;
 	position: relative;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
 }
 
 #benja-logo-image {
 	position: relative;
 	max-height: 100%;
+}
+
+footer {
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+
+
+@media (min-width: 600px) {
+
+	footer {
+		text-align: left;
+	}
 }
