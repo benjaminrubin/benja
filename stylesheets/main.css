@@ -11,6 +11,14 @@ body {
 }
 
 
+footer {
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+
 #home {
 	height: 100vh;
 	position: relative;
@@ -24,13 +32,12 @@ body {
 	max-height: 100%;
 }
 
-footer {
-	width: 100vw;
+.overlay-text {
 	position: fixed;
-	bottom: 0;
-	font-size: 0.8em;
 	text-align: center;
 }
+
+
 
 
 
