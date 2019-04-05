@@ -396,12 +396,15 @@ a:hover, a:focus, a:active {
   max-width: max-content;
   position: relative;
   /* position: absolute; */
-  /* left: 38px; */
-  /* left: 50%; */
-  top: 100%;
+  /* Below the benja logo */
+  /* top: 100%; */
+
+  /* To the right of the benja logo: */
+  top: 20%;
+  right: 25px;
   /* display: block; */
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
   padding: 0;
   list-style: none;
   /* font-size: 2.4rem; */
@@ -411,9 +414,9 @@ a:hover, a:focus, a:active {
 }
 
 .home-social-list li {
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* float: left; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .home-social-list li > a {
