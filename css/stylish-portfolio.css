@@ -392,7 +392,7 @@ a:hover, a:focus, a:active {
 }
 
 .home-social-list {
-  width: max-content;
+  max-width: max-content;
   position: relative;
   /* position: absolute; */
   /* left: 38px; */
@@ -403,7 +403,8 @@ a:hover, a:focus, a:active {
   margin-right: auto;
   padding: 0;
   list-style: none;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 28px;
   line-height: 1.75;
   text-align: center;
 }
