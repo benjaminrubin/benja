@@ -90,15 +90,22 @@ h6 {
   position: relative;
   display: table;
   width: 100%;
-  height: 100vh;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url("../img/benja_logo-min.JPEG");
   /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/benja_logo.JPEG"); */
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.home-header {
+  background: url("../img/benja_logo-min.JPEG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .masthead h1 {
   font-size: 4rem;
@@ -106,10 +113,13 @@ h6 {
   padding: 0;
 }
 
+header h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
   .masthead h1 {
     font-size: 5.5rem;
   }
@@ -186,6 +196,7 @@ h6 {
 }
 
 .menu-toggle {
+  border-radius: 50%;
   position: fixed;
   right: 25px;
   top: 15px;
@@ -194,7 +205,7 @@ h6 {
   font-size: 25px;
   text-align: center;
   color: #fff;
-  /* background: rgba(52, 58, 64, 0.5); */
+  background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   z-index: 999;
 }
@@ -397,13 +408,13 @@ a:hover, a:focus, a:active {
   position: relative;
   /* position: absolute; */
   /* Below the benja logo */
-  top: 100%;
+  /* top: 100%; */
 
   /* To the right of the benja logo: */
-  /* top: 0px; */
-  /* left: 25px; */
+  top: 0px;
+  left: 10px;
   /* display: block; */
-  margin-left: auto;
+  /* margin-left: auto; */
   margin-right: auto;
   padding: 0;
   list-style: none;
@@ -414,11 +425,26 @@ a:hover, a:focus, a:active {
 }
 
 .home-social-list li {
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  /* margin-bottom: 15px; */
+  /* float: left; */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  margin-bottom: 5px;
 }
+
+/* Larger than phones */
+@media (min-width: 768px) {
+  
+  .home-social-list {
+    left: 25px;
+  }
+
+  .home-social-list li {
+    margin-bottom: 25px;
+  }
+
+
+}
+
 
 .home-social-list li > a {
   color: white;
