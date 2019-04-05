@@ -304,9 +304,21 @@ h6 {
   }
 }
 
+#contact {
+  height: 85vh;
+  background: black;
+}
+
+footer {
+  background: black;
+  color: white;
+  height: 15vh;
+}
+
+
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 footer.footer .social-link {
@@ -315,7 +327,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: black;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -377,4 +389,35 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.home-social-list {
+  width: max-content;
+  position: relative;
+  /* position: absolute; */
+  /* left: 38px; */
+  /* left: 50%; */
+  top: 100%;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+  font-size: 2.4rem;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.home-social-list li {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.home-social-list li > a {
+  color: white;
+}
+
+.home-social-list li > a:hover {
+  color: gray;
 }
