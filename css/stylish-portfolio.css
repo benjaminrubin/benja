@@ -345,7 +345,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: white;
 }
 
 .btn-primary {
@@ -401,10 +401,10 @@ a:hover, a:focus, a:active {
 
   /* To the right of the benja logo: */
   top: 20%;
-  right: 25px;
+  left: 25px;
   /* display: block; */
-  margin-left: auto;
-  /* margin-right: auto; */
+  /* margin-left: auto; */
+  margin-right: auto;
   padding: 0;
   list-style: none;
   /* font-size: 2.4rem; */
