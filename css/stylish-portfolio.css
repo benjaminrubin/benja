@@ -417,6 +417,7 @@ a:hover, a:focus, a:active {
   /* float: left; */
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .home-social-list li > a {
