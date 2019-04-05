@@ -400,7 +400,7 @@ a:hover, a:focus, a:active {
   /* top: 100%; */
 
   /* To the right of the benja logo: */
-  top: 20%;
+  top: 0px;
   left: 25px;
   /* display: block; */
   /* margin-left: auto; */
