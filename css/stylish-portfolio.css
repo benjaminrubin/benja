@@ -198,7 +198,7 @@ header h1 {
 .menu-toggle {
   border-radius: 50%;
   position: fixed;
-  right: 25px;
+  right: 15px;
   top: 15px;
   width: 50px;
   height: 50px;
@@ -356,7 +356,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: white;
+  color: gray;
 }
 
 .btn-primary {
@@ -403,53 +403,68 @@ a:hover, a:focus, a:active {
   color: #ecb807 !important;
 }
 
-.home-social-list {
+
+
+/* Social Icon Related Styling */
+
+.social-icons-list {
   max-width: max-content;
   position: relative;
-  /* position: absolute; */
-  /* Below the benja logo */
-  /* top: 100%; */
-
-  /* To the right of the benja logo: */
-  top: 0px;
-  left: 10px;
-  /* display: block; */
-  /* margin-left: auto; */
-  margin-right: auto;
   padding: 0;
   list-style: none;
-  /* font-size: 2.4rem; */
   font-size: 28px;
-  line-height: 1.75;
+  /* line-height: 1.75; */
   text-align: center;
+  display: block;
 }
 
-.home-social-list li {
-  /* float: left; */
-  /* margin-left: 10px; */
-  /* margin-right: 10px; */
-  margin-bottom: 5px;
+.social-icons-list li > a:hover {
+  color: gray;
 }
 
-/* Larger than phones */
-@media (min-width: 768px) {
-  
-  .home-social-list {
-    left: 25px;
-  }
+/* Social icons VERTICAL */
 
-  .home-social-list li {
-    margin-bottom: 25px;
-  }
-
-
-}
-
-
-.home-social-list li > a {
+.social-icons-vertical li > a {
   color: white;
 }
 
-.home-social-list li > a:hover {
-  color: gray;
+.social-icons-vertical {
+  top: 0px;
+  left: 10px;
+  margin-right: auto;
 }
+
+.social-icons-vertical li {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .social-icons-vertical {
+    left: 25px;
+  }
+
+  .social-icons-vertical li {
+    margin-bottom: 25px;
+  }
+
+}
+
+/* Social icons HORIZONTAL */
+
+.social-icons-horizontal li > a {
+  color: #212529;
+}
+
+.social-icons-horizontal {
+  width: 100%;
+}
+
+.social-icons-horizontal li{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+
