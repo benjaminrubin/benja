@@ -467,5 +467,14 @@ a:hover, a:focus, a:active {
 }
 
 
+.terms-btn {
+  text-decoration: underline;
+}
 
+.terms-btn:hover {
+  cursor: pointer;
+}
 
+#terms-box {
+  display: none;
+}
