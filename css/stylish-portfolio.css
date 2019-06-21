@@ -18,9 +18,14 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+
+.main-section {
+  height: 100vh;
+}
+
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .content-section-heading h2 {
@@ -318,8 +323,8 @@ header h1 {
 }
 
 #newsletter {
-  height: 85vh;
-  background: black;
+  /* height: 85vh; */
+  /* background: black; */
 }
 
 
@@ -483,4 +488,22 @@ a:hover, a:focus, a:active {
 #terms-box {
   display: none;
   background: black;
+}
+
+
+
+
+/* CSS I ADDED */
+
+.image-container {
+  overflow: hidden;
+  width: 20rem;
+}
+
+.image-container img {
+  transition: transform .23s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
 }
