@@ -500,14 +500,14 @@ a:hover, a:focus, a:active {
 }
 
 .image-container {
-  overflow: hidden;
   width: 20rem;
 }
 
 .image-container img {
+  border-radius: 50%;
   transition: transform .23s ease;
 }
 
 .image-container:hover img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
