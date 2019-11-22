@@ -508,6 +508,10 @@ a:active {
     height: 2.5rem;
 }
 
+footer a {
+    color: rgb(33, 37, 41);
+}
+
 #branja-logo {
     filter: grayscale(100%);
     transition: .12s;
