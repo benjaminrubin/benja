@@ -491,6 +491,13 @@ a:active {
     transform: scale(1.02);
 }
 
+.album-cover {
+    /* max-width: 500px; */
+}
+
+
+/* FOOTER RELATED */
+
 #branja-logo {
     filter: grayscale(100%);
     transition: .12s;
