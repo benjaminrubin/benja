@@ -331,12 +331,6 @@ header h1 {
     /* background: black; */
 }
 
-footer {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-}
-
 a {
     color: #1D809F;
 }
@@ -497,6 +491,22 @@ a:active {
 
 
 /* FOOTER RELATED */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+}
 
 #branja-logo {
     filter: grayscale(100%);
