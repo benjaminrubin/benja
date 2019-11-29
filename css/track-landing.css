@@ -1,0 +1,49 @@
+#link-box {
+    max-width: 200px;
+}
+
+#link-box p {
+    margin: 2rem 0rem;
+}
+
+#album-cover {}
+
+#content-box {
+    max-width: 800px;
+}
+
+#youtube-music-link {
+    background-color: rgb(221, 14, 7);
+    color: white;
+}
+
+#youtube-music-link:hover {
+    background-color: rgb(247, 50, 44);
+}
+
+#apple-music-link {
+    background-color: rgb(214, 39, 182);
+    color: white;
+}
+
+#apple-music-link:hover {
+    background-color: rgb(211, 81, 187);
+}
+
+#spotify-music-link {
+    background-color: #2EBE59;
+    color: white;
+}
+
+#spotify-music-link:hover {
+    background-color: rgb(65, 231, 123);
+}
+
+#google-play-music-link {
+    background-color: rgb(10, 167, 206);
+    color: white;
+}
+
+#google-play-music-link:hover {
+    background-color: rgb(40, 182, 218);
+}

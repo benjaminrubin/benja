@@ -60,8 +60,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="stylesheets/main.css">
-    <link rel="stylesheet" href="track-landing.css">
+    <link rel="stylesheet" href="css/track-landing.css">
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
 
@@ -82,56 +81,72 @@
 
         <div id="content-wrap">
 
-
             <!-- Header -->
-            <header class="pt-4" id="top">
-                <div class="container text-center">
-                    <h1>Benja - Lover</h1>
+            <header class="container text-center py-2">
+                <h1>Benja - Lover</h1>
+            </header>
+            <!-- End of Header -->
 
-                    <div class="container">
-                        <div class="row">
 
-                            <!-- Album Cover -->
+            <!-- Content Box -->
+            <div class="container" id="content-box">
+                <div class="row">
 
-                            <div class="col-lg-6 col-sm-12">
-                                <img class="img-fluid album-cover" src="img/thumbnail/lover_cover_thumb.jpg" alt="Lover Cover Album">
-                            </div>
+                    <!-- Album Cover -->
+                    <div class="col-md-6 col-sm-12 my-2 py-2">
+                        <img id="album-cover" class="img-fluid" src="img/thumbnail/lover_cover_thumb.jpg" alt="Lover Cover Album">
+                    </div>
+                    <!-- End of Album Cover -->
 
-                            <!-- Link Box -->
 
-                            <div class="col-lg-6 col-sm-12">
-
-                                <p>Listen on Youtube</p>
-                                <p>Listen on Spotify</p>
-                                <p>Listen on Apple Music</p>
-                                <p>Listen on Google Play</p>
-                            </div>
-
+                    <!-- Link Box -->
+                    <div class="col-md-6 col-sm-12 text-center p-3">
+                        <div id="link-box" class="shadow-sm rounded mx-auto my-2 p-2">
+                            <h3>Listen on:</h3>
+                            <p>
+                                <a id="youtube-music-link" class="btn" href="#" role="button"><i class="fab fa-youtube pr-1"></i>YouTube</a>
+                            </p>
+                            <p>
+                                <a id="spotify-music-link" class="btn" href="#" role="button"><i class="fab fa-spotify pr-1"></i>Spotify</a>
+                            </p>
+                            <p>
+                                <a id="apple-music-link" class="btn " href="#" role="button"><i class="fab fa-apple pr-1"></i>Apple Music</a>
+                            </p>
+                            <p>
+                                <a id="google-play-music-link" class="btn" href="#" role="button"><i class="fab fa-google-play pr-1"></i>Google Play</a>
+                            </p>
                         </div>
                     </div>
-                    <!-- Subscribe Box -->
-                    <div class="container">
-                        <p>If you like my music and content, follow me and help me grow! 🙏🏼</p>
-                        <!-- Spotify Subscribe button -->
-                        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:0yNkTLvilfVycwAEJaJrIc&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true">
+                    <!-- End of Link Box -->
+
+                </div>
+            </div>
+            <!-- End of Content Box -->
+
+
+            <!-- Subscribe Box -->
+            <div class="container text-center">
+                <p>If you like my music and content, follow me and help me grow! 🙏🏼</p>
+                <!-- Spotify Subscribe button -->
+                <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:0yNkTLvilfVycwAEJaJrIc&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true">
                         </iframe>
 
-                        <!-- YouTube Subscribe button -->
-                        <script src="https://apis.google.com/js/platform.js"></script>
+                <!-- YouTube Subscribe button -->
+                <script src="https://apis.google.com/js/platform.js"></script>
 
-                        <div class="g-ytsubscribe" data-channelid="UCvn5WuFF_XacPYsMGxa4nqQ" data-layout="full" data-count="default"></div>
-
-
-                        <small>As a reward for your support, you can download the high quality WAV. file of "Lover" at <a href="#">this link</a></small>
-
-                    </div>
+                <div class="g-ytsubscribe" data-channelid="UCvn5WuFF_XacPYsMGxa4nqQ" data-layout="full" data-count="default"></div>
 
 
+                <small>As a reward for your support, you can download the high quality WAV. file of "Lover" at <a href="#">this link</a></small>
+            </div>
+            <!-- End of Subscribe Box -->
 
 
 
-                    <!-- Follow on spotify widget -->
-                    <!-- <br/> Help me get bigger if you like my content<br/>
+
+
+            <!-- Follow on spotify widget -->
+            <!-- <br/> Help me get bigger if you like my content<br/>
 
 
                     <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:0yNkTLvilfVycwAEJaJrIc&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true">
@@ -139,22 +154,12 @@
 
                     <br/> -->
 
-                </div>
-            </header>
-
-
-
-
-
-            <!-- <footer class="footer text-center bg-light">
-        <div class="container">
-            <p class="text-dark small mb-0"> &copy; Benja 2019 </p>
         </div>
-    </footer> -->
 
 
 
-        </div>
+
+
 
 
         <!-- Footer -->
@@ -165,10 +170,7 @@
         </footer>
 
     </div>
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
+
 
 
     <!-- Optional JavaScript -->
