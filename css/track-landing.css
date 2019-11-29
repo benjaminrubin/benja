@@ -1,3 +1,12 @@
+header h1 {
+    font-size: 2.4rem !important;
+    font-weight: 600 !important;
+}
+
+h4 {
+    font-weight: 500 !important;
+}
+
 #link-box {
     max-width: 200px;
 }
@@ -7,7 +16,7 @@
 }
 
 #subscribe-box {
-    max-width: 400px;
+    /* max-width: 400px; */
 }
 
 #album-cover {}
