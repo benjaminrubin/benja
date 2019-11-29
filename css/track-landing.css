@@ -7,6 +7,10 @@ h4 {
     font-weight: 500 !important;
 }
 
+.bg-low-light {
+    background-color: rgb(241, 241, 241) !important;
+}
+
 #link-box {
     max-width: 200px;
 }
@@ -16,7 +20,7 @@ h4 {
 }
 
 #subscribe-box {
-    /* max-width: 400px; */
+    max-width: 522px;
 }
 
 #album-cover {}
