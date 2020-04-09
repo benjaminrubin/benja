@@ -1,0 +1,46 @@
+/* Header */
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+
+/* Display */
+
+.display-1 {
+    font-size: 5rem;
+}
+.display-2 {
+    font-size: 4rem;
+}
+.display-3 {
+    font-size: 3rem;
+}
+.display-4 {
+    font-size: 2rem;
+}
+
+
+.avatar {
+    border-radius: 50% !important;
+}

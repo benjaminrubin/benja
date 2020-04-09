@@ -19,14 +19,14 @@ body {
 
 }
 
-header h1 {
+/* header h1 {
   font-size: 2.4rem !important;
   font-weight: 600 !important;
 }
 
 h4 {
   font-weight: 500 !important;
-}
+} */
 
 .bg-low-light {
   background-color: rgb(241, 241, 241) !important;
@@ -95,6 +95,16 @@ h4 {
 #deezer-music-link:hover {
   background-color: gray;
 }
+
+
+#amazon-music-link {
+  background-color: #4100FF;
+  color: white;
+}
+#amazon-music-link:hover {
+  background-color: rgb(65, 7, 241);
+}
+
 
 @media (min-width: 768px) {
   #link-box {
