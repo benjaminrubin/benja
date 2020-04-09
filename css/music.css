@@ -3,7 +3,8 @@
 }
 
 .album-cover-container a {
-    text-decoration: none;
+    /* text-decoration: none; */
+    color: #212529;
 }
 
 .album-cover {
