@@ -56,7 +56,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Custom Fonts -->
-    
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -108,47 +108,61 @@
                     <div class="col-lg-4 offset-lg-1 offset-md-1 col-md-4 col-sm-12 text-center my-3 p-0">
                         <div id="link-box" class="shadow-sm rounded mx-auto p-2 bg-low-light ">
                             <!-- <h4>Listen on:</h4> -->
-                            <p class="mt-2 mb-0 lead">Listen on:</p>
-                            <p class="mt-4">
-                                <!-- YouTube Link -->
-                                <a id="youtube-music-link" class="btn"
-                                    href="https://www.youtube.com/watch?v=BQhbtHZiyJI" role="button" target="_blank">
-                                    YouTube</a>
-                            </p>
-                            <p>
-                                <!-- Spotify Link -->
-                                <a id="spotify-music-link" class="btn"
-                                    href="https://open.spotify.com/album/4oGMnPE7UN3dQpSp5XREiI"
-                                    role="button" target="_blank">
-                                    Spotify</a>
-                            </p>
-                            <p>
-                                <!-- Apple Music Link -->
-                                <a id="apple-music-link" class="btn "
-                                    href="https://itunes.apple.com/us/album/clav%C3%A9-single/1459800569" role="button"
-                                    target="_blank">
-                                    Apple Music</a>
-                            </p>
-                            <p class="">
-                                <!-- Google Play Link -->
-                                <a id="google-play-music-link" class="btn"
-                                    href="https://play.google.com/store/music/album?id=Bte6tkbhs6z3ftikhj2mjjq23oa&tid=song-Tidpiiddgbr4elaypazh4fnop4y"
-                                    role="button" target="_blank">
-                                    Google Play</a>
-                            </p>
-                            <p class="">
-                                <!-- Deezer Link -->
-                                <a id="amazon-music-link" class="btn"
-                                    href="https://www.amazon.com/Clav%C3%A9-Benja/dp/B07QH9VZ1Z"
-                                    role="button" target="_blank">
-                                    Amazon Music</a>
-                            </p>
+                            <p class="mt-2 mb-2 lead"> <b>Listen on:</b></p>
+
+
+                            <!-- YouTube Link -->
+                            <a href="https://www.youtube.com/watch?v=BQhbtHZiyJI" target="_blank">
+                                <div id="youtube-container" class="platform-container mb-2 shadow-sm border">
+                                    <div id="youtube" class="platform"></div>
+                                </div>
+                            </a>
+
+                            <!-- Spotify Link -->
+                            <a href="https://open.spotify.com/album/4oGMnPE7UN3dQpSp5XREiI" target="_blank">
+                                <div id="spotify-container" class="platform-container mb-2 shadow-sm border">
+                                    <div id="spotify" class="platform"></div>
+                                </div>
+                            </a>
+
+                            <!-- Apple Music Link -->
+                            <a href="https://itunes.apple.com/us/album/clav%C3%A9-single/1459800569" target="_blank">
+                                <div id="apple-music-container" class="platform-container mb-2 shadow-sm border">
+                                    <div id="apple-music" class="platform"></div>
+                                </div>
+                            </a>
+
+                            <!-- Google Play Link -->
+                            <a href="https://play.google.com/store/music/album?id=Bte6tkbhs6z3ftikhj2mjjq23oa&tid=song-Tidpiiddgbr4elaypazh4fnop4y"
+                                target="_blank">
+                                <div id="google-play-container" class="platform-container mb-2 shadow-sm border">
+                                    <div id="google-play" class="platform"></div>
+                                </div>
+                            </a>
+
+                            <!-- Amazon Music -->
+                            <a href="https://www.amazon.com/Clav%C3%A9-Benja/dp/B07QH9VZ1Z" target="_blank">
+                                <div id="amazon-music-container" class="platform-container mb-2 shadow-sm border">
+                                    <div id="amazon-music" class="platform"></div>
+                                </div>
+                            </a>
+
+                            <!-- Bandcamp -->
+                            <a href="https://benjamusic.bandcamp.com/track/clav" target="_blank">
+                                <div id="bandcamp-container" class="platform-container shadow-sm border">
+                                    <div id="bandcamp" class="platform"></div>
+                                </div>
+                            </a>
+
+
+
+
                         </div>
                     </div>
                     <!-- End of Link Box -->
 
                 </div>
-                
+
             </div>
             <!-- End of Content Box -->
 
@@ -158,16 +172,17 @@
         </div>
 
         <section class="container text-center mt-5">
-        
+
             <div class="row">
                 <p class="mx-auto">
-                    <a href="https://www.benjaofficial.com/music" role="button" aria-pressed="true" class="btn btn-lg btn-block bg-secondary text-light">Back to Benja's Music</a>
+                    <a href="https://www.benjaofficial.com/music" role="button" aria-pressed="true"
+                        class="btn btn-lg btn-block bg-secondary text-light">Back to Benja's Music</a>
                 </p>
             </div>
-            
+
             <hr class="mt-5">
         </section>
-    
+
 
         <!-- <div class="container">
             <div class="row">
@@ -194,14 +209,14 @@
 
 
 
-       <!-- Javascript -->
-       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-           integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-           crossorigin="anonymous"></script>
-       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-           integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-           crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 
 </body>

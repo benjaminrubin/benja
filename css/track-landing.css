@@ -16,7 +16,6 @@ body {
     -webkit-filter: blur(20px);
     background-blend-mode: luminosity;
     
-
 }
 
 /* header h1 {
@@ -40,16 +39,69 @@ h4 {
   margin: 2rem 0rem;
 }
 
-#subscribe-box {
-  /* max-width: 550px; */
-}
-
-#album-cover {
-}
-
 #content-box {
   max-width: 740px;
 }
+
+
+
+
+.platform-container {
+  height: 70px;
+  /* border: 1px gray solid; */
+  border-radius: 3px;
+}
+
+.platform-container:hover {
+  background-color: rgb(130, 130, 130, 0.1);
+}
+
+.platform {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+
+#youtube { background-image: url(../img/retailer-logos/youtube.png); }
+#spotify { background-image: url(../img/retailer-logos/spotify.png); }
+#apple-music { background-image: url(../img/retailer-logos/applemusic.png);}
+#amazon-music { background-image: url(../img/retailer-logos/amazonmusic.png);}
+#google-play { background-image: url(../img/retailer-logos/googleplay.png);}
+#deezer { background-image: url(../img/retailer-logos/deezer.png);}
+#bandcamp { background-image: url(../img/retailer-logos/bandcamp.png);}
+
+#youtube-container { padding: 16px 0;}
+
+#spotify-container { padding: 19px 0;}
+
+#apple-music-container { padding: 19px 0;}
+
+#google-play-container { padding: 20px 0;}
+
+#deezer-container { padding: 23px 0;}
+
+#amazon-music-container { padding: 18px 0}
+
+#bandcamp-container { padding: 23px 0}
+
+@media (min-width: 768px) {
+  #link-box {
+    max-width: 10000px;
+  }
+}
+
+
+
+
+
+
+
+/* Old CSS Platform Links */
 
 #youtube-music-link {
   background-color: rgb(221, 14, 7);
@@ -103,11 +155,4 @@ h4 {
 }
 #amazon-music-link:hover {
   background-color: rgb(65, 7, 241);
-}
-
-
-@media (min-width: 768px) {
-  #link-box {
-    max-width: 10000px;
-  }
 }
