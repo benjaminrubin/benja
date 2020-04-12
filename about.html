@@ -56,6 +56,24 @@
 
 
 
+    <!-- MailerLite Universal -->
+    <script>
+        (function (m, a, i, l, e, r) {
+        m['MailerLiteObject'] = e; function f() {
+            var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
+        }
+            f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
+            var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+            _.parentNode.insertBefore(r, _);
+        })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+        var ml_account = ml('accounts', '1978922', 'i6v5g7d0v7', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
+
+
+
+
     <!-- Favicon Related -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -72,6 +90,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/global.css">
+
+
+
 
 
 
@@ -125,7 +146,7 @@
 
     <!-- About Section -->
 
-    <section class="container">
+    <section class="container mb-5">
 
         <!-- Profile Image -->
 
@@ -165,10 +186,13 @@
                     <div class="card-body">
                         <p class="text-center">
                             I'm a creator. In this specific case, I create music.
-                            <br/>
-                            I'm not married to a particular genre, but most of my stuff would fall under <b> Electronic Dance Music</b>.
-                            <br/>                            
-                            My biggest dream is to make people feel good, bring their mood up, or disconnect them for a moment and pull them into a different reality. If I move you in any way, whether you smile or start shakeing your
+                            <br />
+                            I'm not married to a particular genre, but most of my stuff would fall under <b> Electronic
+                                Dance Music</b>.
+                            <br />
+                            My biggest dream is to make people feel good, bring their mood up, or disconnect them for a
+                            moment and pull them into a different reality. If I move you in any way, whether you smile
+                            or start shakeing your
                             hips to my rhythms, then I'm making that dream come true.
                         </p>
 
@@ -221,9 +245,19 @@
         </div>
 
 
-        <hr class="mt-5">
+    </section>
+
+
+    <!-- Contact Form -->
+    <section class="container text-center">
+        <h2 class="text-dark" style="font-weight: 700;">Contact Me:</h2>
+        <div class="ml-form-embed" data-account="1978922:i6v5g7d0v7" data-form="1953244:g6l7g3">
+        </div>
+        <p class="mb-4"> <i> Or you can email me: <a href="mailto:artist@benjaofficial.com">artist@benjaofficial.com</a></i></p>
+        <hr class="mt-4">
 
     </section>
+
 
 
 
