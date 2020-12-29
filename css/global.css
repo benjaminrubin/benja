@@ -44,3 +44,40 @@ h6 {
 .avatar {
     border-radius: 50% !important;
 }
+
+.bg-black {
+    background-color: #020503;
+}
+
+
+
+/* Opacity */
+ .opacity-9 {
+     opacity: 90%;
+ }
+ .opacity-8 {
+     opacity: 80%;
+ }
+ .opacity-7 {
+     opacity: 70%;
+ }
+ .opacity-6 {
+     opacity: 60%;
+ }
+ .opacity-5 {
+     opacity: 50%;
+ }
+ .opacity-4 {
+     opacity: 40%;
+ }
+ .opacity-3 {
+     opacity: 30%;
+ }
+ .opacity-2 {
+     opacity: 20%;
+ }
+ .opacity-1 {
+     opacity: 10%;
+ }
+
+ 
